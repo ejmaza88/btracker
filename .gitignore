@@ -1,0 +1,34 @@
+# Backend
+*.pyc
+__pycache__
+.idea
+
+tracker/tracker/local_settings.py
+.DS_Store
+
+.venv
+venv
+*.sqlite3
+
+
+# UI
+# dependencies
+btrackerui/node_modules
+btrackerui/.pnp
+btrackerui/.pnp.js
+
+# testing
+btrackerui/coverage
+
+# production
+btrackerui/build
+
+# misc
+btrackerui/.env.local
+btrackerui/.env.development.local
+btrackerui/.env.test.local
+btrackerui/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
